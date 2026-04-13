@@ -1,0 +1,7 @@
+{
+  "name": "kt cloud 칼리브레이션 & 면담 시뮬레이터 ",
+  "description": "A simulation system for HR calibration, allowing for adjustments to employee salaries based on performance feedback and managing a total budget.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
