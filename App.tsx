@@ -23,7 +23,6 @@ const App: React.FC = () => {
   const [interviewee, setInterviewee] = useState<ProcessedEmployee | null>(null);
   const [interviewHistory, setInterviewHistory] = useState<ChatMessage[]>([]);
   const [sortedEmployees, setSortedEmployees] = useState<ProcessedEmployee[]>([]);
-  console.log('App component mounting...');
   const apiKey = process.env.API_KEY || process.env.GEMINI_API_KEY || '';
   if (!apiKey) {
     console.warn('Warning: API_KEY is missing. AI features will not work.');
